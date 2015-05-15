@@ -1,0 +1,62 @@
+---
+title: "Suggested Reading"
+author: "Brian High"
+date: "05/12/2015"
+output:
+  html_document:
+    keep_md: true
+---
+
+```{r echo=FALSE, results='asis', warning=FALSE, cache=FALSE}
+suppressPackageStartupMessages(library(knitr))
+opts_chunk$set(echo=FALSE, results='asis', warning=FALSE, cache=FALSE)
+```
+
+## Information Systems
+
+```{r, engine='bash'}
+python amznsrch.py 'Computer Hardware' 'Computer Software'
+python amznsrch.py 'Systems Analysis' 'Project Management'
+python amznsrch.py 'Computer Networking'
+python amznsrch.py 'Information Security' 'Computer Security'
+```
+
+## Data Management
+```{r, engine='bash'}
+python amznsrch.py 'Data Management' 'Database' 'SQL'
+python amznsrch.py 'Data Wrangling' 'Bad Data'
+python amznsrch.py 'R Web Scraping' 'Python Web Scraping'
+```
+
+## Programming
+```{r, engine='bash'}
+python amznsrch.py 'R Programming' 'RStudio'
+python amznsrch.py 'Python Programming' 'IPython'
+python amznsrch.py 'Regular Expressions'
+```
+
+## Version Control
+```{r, engine='bash'}
+python amznsrch.py 'Version Control' 'GitHub'
+```
+
+## Data Analysis and Visualization
+```{r, engine='bash'}
+python amznsrch.py 'Data Analysis'
+python amznsrch.py 'R Visualization' 'Python Visualization'
+```
+
+## Bioinformatics
+```{r, engine='bash'}
+python amznsrch.py 'R Bioinformatics' 'Python Bioinformatics'
+python amznsrch.py 'Computational Biology'
+```
+
+## Buzzwords
+```{r, engine='bash'}
+python amznsrch.py 'Big Data'
+python amznsrch.py 'Cloud Computing'
+python amznsrch.py 'Data Science' 'R Data Science' 'Python Data Science'
+python amznsrch.py 'Data Mining'
+python amznsrch.py 'R Machine Learning' 'Python Machine Learning'
+```

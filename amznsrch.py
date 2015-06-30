@@ -5,7 +5,7 @@
 Search Amazon books and return results as a Markdown list.
 """
 
-vers_date = '2015-05-13'
+vers_date = '2015-06-30'
 copyright = 'Copyright (c) 2015 Brian High'
 license = 'MIT'
 repos_url = 'https://github.com/brianhigh/amazon-search'
@@ -116,11 +116,12 @@ def main(num_items, heading_level, args):
         for item in itertools.islice(amznscpr.search(
             Keywords = srch_terms, SearchIndex='Books'), num_items):
             
-            # Skip if no title, else encode and create a title search string
+            # Skip if no title, else encode, remove parenthetical text, & quote
             if not item.title:
                 continue
             else:
                 bktitle = item.title.encode('utf8')
+                bktitle = re.sub('\s*[(\[].*[)\]]', '', bktitle)
                 bktitlesrch = urllib.quote_plus('"' + bktitle + '"')
             
             # Encode author, if present, and format for printing

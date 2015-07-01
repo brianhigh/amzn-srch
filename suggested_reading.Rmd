@@ -12,6 +12,9 @@ suppressPackageStartupMessages(library(knitr))
 opts_chunk$set(echo=FALSE, results='asis', warning=FALSE, cache=FALSE)
 ```
 
+This list was automatically generated from the Amazon API. It includes 
+the top-5 search results for each search term, based on customer reviews.
+
 ## Information Systems
 
 ```{r, engine='bash'}

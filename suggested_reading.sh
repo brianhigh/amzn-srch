@@ -5,8 +5,12 @@ HTMLOUT="suggested_reading.html"
 
 echo '# Suggested Reading
 Brian High  
-06/30/2015
+07/01/2015
 ' > $OUT
+
+echo 'This list was automatically generated from the Amazon API. It includes
+the top-5 search results for each search term, based on customer reviews.' \
+    >> $OUT
 
 echo "## Information Systems" >> $OUT
 python amznsrch.py 'Computer Hardware' 'Computer Software' >> $OUT

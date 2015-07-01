@@ -46,4 +46,4 @@ python amznsrch.py 'Data Science' 'R Data Science' 'Python Data Science' >> $OUT
 python amznsrch.py 'Data Mining' >> $OUT
 python amznsrch.py 'R Machine Learning' 'Python Machine Learning' >> $OUT
 
-cat $OUT | pandoc -f markdown -s -o $HTMLOUT 
+cat $OUT | ./remdupes.py | pandoc -f markdown -s -o $HTMLOUT 

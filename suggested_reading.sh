@@ -13,34 +13,34 @@ the top-5 search results for each search term, based on customer reviews.
 Duplicates have been removed. An Internet search will reveal additional 
 resources, often freely available and of high quailty.\n" >> $OUT
 
-echo -e "## Information Systems\n" >> $OUT
+echo -e "\n## Information Systems\n" >> $OUT
 python amznsrch.py 'Computer Hardware' 'Computer Software' >> $OUT
 python amznsrch.py 'Systems Analysis' 'Project Management' >> $OUT
 python amznsrch.py 'Computer Networking' >> $OUT
 python amznsrch.py 'Information Security' 'Computer Security' >> $OUT
 
-echo -e "## Data Management\n" >> $OUT
+echo -e "\n## Data Management\n" >> $OUT
 python amznsrch.py 'Data Management' 'Database' 'SQL' >> $OUT
 python amznsrch.py 'Data Wrangling' 'Bad Data' >> $OUT
 python amznsrch.py 'R Web Scraping' 'Python Web Scraping' >> $OUT
 
-echo -e "## Programming\n" >> $OUT
+echo -e "\n## Programming\n" >> $OUT
 python amznsrch.py 'R Programming' 'RStudio' >> $OUT
 python amznsrch.py 'Python Programming' 'IPython' >> $OUT
 python amznsrch.py 'Regular Expressions' >> $OUT
 
-echo -e "## Version Control\n" >> $OUT
+echo -e "\n## Version Control\n" >> $OUT
 python amznsrch.py 'Version Control' 'GitHub' >> $OUT
 
-echo -e "## Data Analysis and Visualization\n" >> $OUT
+echo -e "\n## Data Analysis and Visualization\n" >> $OUT
 python amznsrch.py 'Data Analysis' >> $OUT
 python amznsrch.py 'R Visualization' 'Python Visualization' >> $OUT
 
-echo -e "## Bioinformatics\n" >> $OUT
+echo -e "\n## Bioinformatics\n" >> $OUT
 python amznsrch.py 'R Bioinformatics' 'Python Bioinformatics' >> $OUT
 python amznsrch.py 'Computational Biology' >> $OUT
 
-echo -e "## Buzzwords\n" >> $OUT
+echo -e "\n## Buzzwords\n" >> $OUT
 python amznsrch.py 'Big Data' >> $OUT
 python amznsrch.py 'Cloud Computing' >> $OUT
 python amznsrch.py 'Data Science' 'R Data Science' 'Python Data Science' >> $OUT

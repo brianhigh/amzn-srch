@@ -12,9 +12,10 @@ suppressPackageStartupMessages(library(knitr))
 opts_chunk$set(echo=FALSE, results='asis', warning=FALSE, cache=FALSE)
 ```
 
-This list was automatically generated from the Amazon API. It includes 
+This list was automatically generated from the Amazon API. It includes
 the top-5 search results for each search term, based on customer reviews.
-Duplicates have been removed.
+Duplicates have been removed. An Internet search will reveal additional 
+resources, often freely available and of high quailty.
 
 ## Information Systems
 

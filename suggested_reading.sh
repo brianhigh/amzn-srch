@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 OUT="suggested_reading.md"
 HTMLOUT="suggested_reading.html"
@@ -9,8 +9,9 @@ Brian High
 ' > $OUT
 
 echo -e "This list was automatically generated from the Amazon API. It includes
-the top-5 search results for each search term, based on customer reviews.\n" \
-    >> $OUT
+the top-5 search results for each search term, based on customer reviews.
+Duplicates have been removed. An Internet search will reveal additional 
+resources, often freely available and of high quailty.\n" >> $OUT
 
 echo -e "## Information Systems\n" >> $OUT
 python amznsrch.py 'Computer Hardware' 'Computer Software' >> $OUT

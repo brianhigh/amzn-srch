@@ -43,6 +43,9 @@ python amznsrch.py 'Computational Biology' >> $OUT
 echo -e "\n## Geospatial Analysis\n" >> $OUT
 python amznsrch.py 'ArcGIS' 'QGIS' 'PostGIS' 'GIS Scripting' >> $OUT
 
+echo -e "\n### Health GIS\n" >> $OUT
+python amznsrch.py -l 0 "Health Geography" "Health Cartography" "Health Place" "Disease Maps" "Medicine Maps" >> $OUT
+
 echo -e "\n## Sensor Technologies\n" >> $OUT
 python amznsrch.py -l 0 'Sensor Technologies' >> $OUT
 

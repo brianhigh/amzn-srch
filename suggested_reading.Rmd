@@ -62,6 +62,11 @@ python amznsrch.py 'Computational Biology'
 python amznsrch.py 'ArcGIS' 'QGIS' 'PostGIS' 'GIS Scripting'
 ```
 
+### Health GIS
+```{r, engine='bash'}
+python amznsrch.py -l 0 "Health Geography" "Health Cartography" "Health Place" "Disease Maps" "Medicine Maps"
+```
+
 ## Sensor Technologies
 ```{r, engine='bash'}
 python amznsrch.py -l 0 'Sensor Technologies'

@@ -57,6 +57,21 @@ python amznsrch.py 'R Bioinformatics' 'Python Bioinformatics'
 python amznsrch.py 'Computational Biology'
 ```
 
+## Geospatial Analysis
+```{r, engine='bash'}
+python amznsrch.py 'ArcGIS' 'QGIS' 'PostGIS' 'GIS Scripting'
+```
+
+## Sensor Technologies
+```{r, engine='bash'}
+python amznsrch.py 'Sensor Technologies'
+```
+
+## Health Analytics
+```{r, engine='bash'}
+python amznsrch.py 'Health Analytics'
+```
+
 ## Buzzwords
 ```{r, engine='bash'}
 python amznsrch.py 'Big Data'

@@ -40,6 +40,15 @@ echo -e "\n## Bioinformatics\n" >> $OUT
 python amznsrch.py 'R Bioinformatics' 'Python Bioinformatics' >> $OUT
 python amznsrch.py 'Computational Biology' >> $OUT
 
+echo -e "\n## Geospatial Analysis\n" >> $OUT
+python amznsrch.py 'ArcGIS' 'QGIS' 'PostGIS' 'GIS Scripting' >> $OUT
+
+echo -e "\n## Sensor Technologies\n" >> $OUT
+python amznsrch.py 'Sensor Technologies' >> $OUT
+
+echo -e "\n## Health Analytics\n" >> $OUT
+python amznsrch.py 'Health Analytics' >> $OUT
+
 echo -e "\n## Buzzwords\n" >> $OUT
 python amznsrch.py 'Big Data' >> $OUT
 python amznsrch.py 'Cloud Computing' >> $OUT

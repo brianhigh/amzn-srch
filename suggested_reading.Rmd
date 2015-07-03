@@ -64,12 +64,12 @@ python amznsrch.py 'ArcGIS' 'QGIS' 'PostGIS' 'GIS Scripting'
 
 ## Sensor Technologies
 ```{r, engine='bash'}
-python amznsrch.py 'Sensor Technologies'
+python amznsrch.py -l 0 'Sensor Technologies'
 ```
 
 ## Health Analytics
 ```{r, engine='bash'}
-python amznsrch.py 'Health Analytics'
+python amznsrch.py -l 0 'Health Analytics'
 ```
 
 ## Buzzwords

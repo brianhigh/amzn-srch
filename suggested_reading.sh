@@ -44,10 +44,10 @@ echo -e "\n## Geospatial Analysis\n" >> $OUT
 python amznsrch.py 'ArcGIS' 'QGIS' 'PostGIS' 'GIS Scripting' >> $OUT
 
 echo -e "\n## Sensor Technologies\n" >> $OUT
-python amznsrch.py 'Sensor Technologies' >> $OUT
+python amznsrch.py -l 0 'Sensor Technologies' >> $OUT
 
 echo -e "\n## Health Analytics\n" >> $OUT
-python amznsrch.py 'Health Analytics' >> $OUT
+python amznsrch.py -l 0 'Health Analytics' >> $OUT
 
 echo -e "\n## Buzzwords\n" >> $OUT
 python amznsrch.py 'Big Data' >> $OUT

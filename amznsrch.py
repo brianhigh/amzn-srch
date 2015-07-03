@@ -141,8 +141,14 @@ def main(num_items, heading_level, args):
             spl = ('[SPL](https://seattle.bibliocommons.com/search?' + 
                    't=title&search_category=title&q=' + bktitlesrch + 
                    '&commit=Search)')
-            uwl = ('[UW](http://uwashington.worldcat.org' + 
-                   '/search?q=ti%3A' + bktitlesrch + '&qt=advanced)')
+            uwl = ('[UW](http://alliance-primo.hosted.exlibrisgroup.com/' + 
+                   'primo_library/libweb/action/search.do?fn=search&' + 
+                   'ct=search&vid=UW&vl%28753972432UI0%29=title&' + 
+                   'vl%281UIStartWith0%29=starts+with&vl%28freeText0%29=' + 
+                    bktitlesrch + '&Submit=Search)')
+            # Searching UW Libraries through WorldCat to be deprecated 2015-09
+            #uwl = ('[UW](http://uwashington.worldcat.org' + 
+            #       '/search?q=ti%3A' + bktitlesrch + '&qt=advanced)')
             
             # Print markdown for title, author, and links as bulleted list item
             print('- _' + bktitle + '_ ' + bkauthor + 

@@ -5,7 +5,7 @@ HTMLOUT="suggested_reading.html"
 
 echo '# Suggested Reading
 Brian High  
-07/01/2015
+07/02/2015
 ' > $OUT
 
 echo -e "This list was automatically generated from the Amazon API. It includes

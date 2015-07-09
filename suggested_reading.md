@@ -1,11 +1,11 @@
 # Suggested Reading
 Brian High  
-07/08/2015
+07/09/2015
 
-This list was automatically generated from the Amazon API. It includes
-the top-5 search results for each search term, based on customer reviews.
+This list was semi-automatically generated from the Amazon API. It includes
+the top search results for each search term, based on customer reviews.
 Duplicates have been removed. An Internet search will reveal additional 
-resources, often freely available and of high quailty.
+resources, often freely available and of high quality.
 
 
 ## Information Systems
